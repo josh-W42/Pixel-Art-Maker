@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Pixel Art Maker!</title>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Monoton">
+  <link rel="stylesheet" href="css/styles.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+</head>
+<body>
+  <!-- Background photo by Alona Wetherell on www.gsfdcy.com titled Good Pixel Art Background Pictures Super HD for Desktop -->
+    <div id="header">
+      <h1>Lab: Pixel Art Maker</h1>
+    </div>
+    <div id="left_plane">
+      <h2>Choose Grid Size</h2>
+      <form id="sizePicker">
+          Grid Height:
+          <input type="number" id="inputHeight" name="height" min="1" value="1"> <br />
+          Grid Width:
+          <input type="number" id="inputWeight" name="width" min="1" value="1"> <br />
+          <input type="submit">
+      </form>
+      <h2>Pick A Color</h2>
+      <input type="color" id="colorPicker">
+    </div>
+    <div id="right_plane">
+      <h2>Design Canvas</h2>
+      <table id="pixelCanvas"></table>
+    </div>
+</body>
+<script src="javascript/designs.js"></script>
+</html>

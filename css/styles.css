@@ -1,0 +1,92 @@
+body {
+    text-align: center;
+    margin: 0px;
+    font-family: Monoton;
+    background-image: url('http://www.gsfdcy.com/data/img/66/1904686-pixel-art-wallpaper.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+h1 {
+    font-size: 70px;
+    margin: 0.2em;
+    margin-top: 0px;
+    padding-top: .80em;
+    color: navajowhite;
+    text-shadow: 0px 0px 50px black;
+}
+
+#header{
+  margin: 0px;
+  padding: 0px;
+  height: 20em;
+  width: inherit;
+}
+
+h2 {
+    margin: 1em 0 0.25em;
+}
+
+h2:first-of-type {
+    margin-top: 0.5em;
+}
+
+table,
+tr,
+td {
+    border: 1px solid black;
+}
+td:hover{
+  border: 1px double white;
+}
+
+table {
+    border-collapse: collapse;
+    margin: 0 auto;
+    background-color: white;
+    padding: 5em;
+}
+
+tr {
+    height: 20px;
+}
+
+td {
+    width: 20px;
+    background-color: white;
+}
+
+input[type="number"] {
+    width: 5em;
+}
+
+#pixelCanvas{
+  display: none;
+}
+
+#left_plane{
+  float: left;
+  margin: 5em;
+  margin-top: auto;
+  margin-left: 35%;
+  height: 250px;
+  width: 400px;
+  background-color: lightgrey;
+  border-radius: 20%;
+  border: 5px double black;
+  padding: 1em;
+}
+
+#right_plane{
+  display: none;
+  float: right;
+  margin: 5em;
+  margin-top: auto;
+  margin-right: 2em;
+  padding: 2em;
+  margin-right: 10em;
+  border-radius: 20%;
+  background-color: lightgrey;
+  border: 5px double black;
+}
